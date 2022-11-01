@@ -1,5 +1,62 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <script src="script.js"></script>
-    </body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+  <body id="body" background="background.png">
+    <h1 class="title">
+      Rock - Paper - Scissors
+    </h1>
+
+    <div>
+      <div>
+        <div id="result">
+        </div>
+
+        <button type = "button" class="button"  id="start">
+          Start Game
+        </button>
+      </div>
+
+      <div id="choices">
+        <div class="user">
+          <div id="userText">
+            User: 0
+            </div>
+          <div class="user-choice">
+            <img class="img" src="/images/user.png" id="userImg">
+          </div>
+        </div>
+
+        <p id="vs">VS</p>
+
+        <div class="cp" >
+            <div id="computerText">
+            Computer: 0
+            </div>
+          <div class="cp-choice">
+            <img class="img" src="/images/pc.png" id="cpImg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttons-box">
+      <button type = "button" class="button" id="rock">
+        Rock
+      </button>
+      <button type = "button" class="button" id="paper">
+        Paper
+      </button>
+      <button type = "button" class="button"  id="scissors">
+        Scissors
+      </button>
+    </div>
+    
+    <script src="script.js"></script>
+
+  </body>
+</html>

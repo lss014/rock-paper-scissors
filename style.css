@@ -1,0 +1,43 @@
+body{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.img{
+    padding: 3%;
+}
+
+.title{
+    font-size: 100px;
+}
+
+#choices{
+    display: flex;
+    flex-direction: row;
+}
+
+.user, .cp{
+    width: 50%;
+    text-align: center;
+}
+
+#vs{
+    font-size: 100px;
+}
+
+.buttons-box{
+    margin-top: 10px;
+}
+
+.button{
+    background-color: black;
+    color: #F9FAF8;
+    width: 10%;
+    font-size: 20px;
+    font-weight: 500;
+    border: solid 3px #F9FAF8;
+    border-radius: 9px;
+    padding: 1%;
+}
